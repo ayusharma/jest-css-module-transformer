@@ -7,7 +7,8 @@ module.exports = function transformNodesIntoClassNamesMap(nodes = []) {
     return nodes
         .filter((node) => node.type === 'rule')
         .map((node) => node.selector)
-        .flatMap((classNames) => classNames.split(','))
+        .map((classNames) => classNames.split(','))
+        .reduce((acc, classNamesList) => [...acc, ...classNamesList], [])
         .map((className) => className.trim())
         .filter((className) => className.startsWith('.'))
         .map((className) => className.substring(1))
