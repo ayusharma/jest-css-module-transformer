@@ -3,7 +3,7 @@ Jest css module transformer
 This package provides a mock to `*.scss` & `*.css` files and keeps the class names intact in Jest snapshot
 
 **Original markup**:
-```javascript
+```html
     <div class=`container ${css.marginAuto}`>
         <section class=``${css.blogSection}`>...</section>
     </div>
