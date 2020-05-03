@@ -19,7 +19,7 @@
     "scss",
     "postcss"
   ],
-  "author": "Ayush Sharma",
+  "author": "Ayush Sharma <ayush.aceit@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ayusharma/jest-css-module-transformer/issues"
