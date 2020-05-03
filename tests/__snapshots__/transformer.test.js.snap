@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest css module transformer css output 1`] = `
+Object {
+  "button": "button",
+  "flex": "flex",
+  "text": "text",
+}
+`;
+
+exports[`Jest css module transformer scss output 1`] = `
+Object {
+  "button": "button",
+  "flex": "flex",
+  "text": "text",
+}
+`;

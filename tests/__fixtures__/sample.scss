@@ -1,0 +1,22 @@
+$green: green;
+$rebeccapurple: rebeccapurple;
+
+.button {
+  color: $green;
+}
+
+.text {
+  color: $rebeccapurple;
+}
+
+.flex {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+.textOverflow {
+  @include text-overflow;
+}
