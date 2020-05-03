@@ -5,7 +5,7 @@ This package provides a mock to `*.scss` & `*.css` files and keeps the class nam
 **Original markup**:
 ```html
     <div class=`container ${css.marginAuto}`>
-        <section class=``${css.blogSection}`>...</section>
+        <section class=`${css.blogSection}`>...</section>
     </div>
 ```
 **Snapshot markup without transformation**:
