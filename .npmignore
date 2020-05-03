@@ -4,6 +4,7 @@ node_modules
 .idea/
 .vscode/
 tests/
-jest.config.js
 .gitignore
+jest.config.js
 prettier.config.js
+babel.config.js
