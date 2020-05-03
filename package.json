@@ -4,7 +4,8 @@
   "description": "A jest preprocessor for css and scss files",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run test"
   },
   "repository": {
     "type": "git",
